@@ -9,8 +9,8 @@ A command-line tool that generates statistical summaries of CSV datasets, a shel
 - Counts missing values per column with percentage
 - Counts unique values per column
 - Color-coded terminal output with formatted table
-- Export summary to CSV with `--export`
-- ASCII histogram for numeric columns with `--histogram`
+- Export summary to CSV with `--export.`
+- ASCII histogram for numeric columns with `--histogram.`
 
 ## Project Structure
 
@@ -44,7 +44,7 @@ bash profiler.sh --file data/sample.csv
 # With export to CSV
 bash profiler.sh --file data/sample.csv --export
 
-# With ASCII histogram
+# With an ASCII histogram
 bash profiler.sh --file data/sample.csv --histogram
 
 # All features at once
